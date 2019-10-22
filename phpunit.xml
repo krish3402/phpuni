@@ -1,0 +1,12 @@
+<phpunit stderr="true" >
+    <testsuites>
+        <testsuite name="All Tests">
+            <directory>tests</directory>
+        </testsuite>
+    </testsuites>
+    <filter>
+      <whitelist>
+            <directory>tests</directory>
+        </whitelist>
+    </filter>
+</phpunit>

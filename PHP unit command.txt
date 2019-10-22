@@ -1,0 +1,6 @@
+Run the following command for running PHP unit tests and generating coverage report of clover and html
+
+phpunit  --coverage-html tests/coverage --coverage-clover tests/clover.xml
+
+
+
